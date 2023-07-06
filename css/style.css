@@ -24,7 +24,7 @@
   }
 
   .bg-image {
-    background-image: url('/Images/SQbg_2.gif');
+    background-image: url('../Images/SQbg_2.gif');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
