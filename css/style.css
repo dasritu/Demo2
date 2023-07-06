@@ -20,7 +20,7 @@
   .nav-item-margin:hover {
     text-decoration: underline;
     font-style: normal;
-
+    color: wheat;
   }
 
   .bg-image {
@@ -31,6 +31,15 @@
     overflow-x: hidden;
     width: 100vw;
     height: 100vh;
+  }
+  .nav-item a{
+    color:white;
+    font-weight: bold;
+  }
+  .nav-item a:hover{
+    text-decoration: underline;
+    font-style: normal;
+    color: wheat;
   }
   /* .home{
     background-image: url('/Images/SparkQuest.gif');
@@ -46,8 +55,6 @@
     font-family: 'Atomic Age', cursive;
 
   }
- 
-
   .text {
     color: #FFF;
     font-family: 'Atomic Age', cursive;
@@ -137,13 +144,13 @@
     margin: 19px;
   }
   .about{
-    /* background-image: url('/Images/about-bg.png');
+   
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed; 
     overflow-x: hidden;
     width: 100vw;
-    height: 100vh; */
+    height: 100vh; 
   }
   .about-head {
     font-family: 'Montserrat', sans-serif;
