@@ -41,6 +41,10 @@
     font-style: normal;
     color: wheat;
   }
+  .home{
+    width: 100vw;
+    height: 100vh;
+  }
   /* .home{
     background-image: url('/Images/SparkQuest.gif');
     background-repeat: no-repeat;
