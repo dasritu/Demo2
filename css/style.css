@@ -5,8 +5,6 @@
     font-family: 'Montserrat';
     src: url('path/to/montserrat-regular.woff2') format('woff2'),
       url('path/to/montserrat-regular.woff') format('woff');
-    /* Add additional font formats if necessary */
-    /* Make sure to replace 'path/to/' with the actual path to your font files */
   }
   *{
     box-sizing: border-box;
