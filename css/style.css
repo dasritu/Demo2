@@ -2,10 +2,12 @@
     font-family: 'Century Gothic';
     src: url('path/to/century-gothic.woff2') format('woff2'),
     url('path/to/century-gothic.woff') format('woff');
+}
+@font-face{
     font-family: 'Montserrat';
     src: url('path/to/montserrat-regular.woff2') format('woff2'),
-      url('path/to/montserrat-regular.woff') format('woff');
-  }
+    url('path/to/montserrat-regular.woff') format('woff');
+}
   *{
     box-sizing: border-box;
   }
