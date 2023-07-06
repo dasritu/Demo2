@@ -57,7 +57,6 @@
   .text-tech {
     color: #FFF;
     font-family: 'Atomic Age', cursive;
-
   }
   .text {
     color: #FFF;
@@ -204,6 +203,38 @@
     
 
 }
+@media only screen and (max-width:380px){
+    .techno{
+        margin-left: 2px;
+        font-size: 17px;
+        margin-top: -6px;
+        text-align: center;
+    }
+    .sparkdiv{
+        margin-top: 26px;
+    }
+    .spark2 img {
+        width: 102%;
+        margin-top: -14px;
+        margin-left: -13px;
+    }
+    .date{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        display: flex;
+        margin-left: 61px;
+        margin-top: 4px;
+        font-size: 22px;
+        text-align: center;
+    }
+    .cyber{
+        font-family: 'Century Gothic', sans-serif;
+        color: white;
+        display: flex;
+        margin-left: 61px;
+        margin-top: 8px;
+    }
+}
   /* .spark-img{
         margin-top: 7px;
         margin-left: 40px;
@@ -211,9 +242,8 @@
         height: 349px;
       }
       .hero-logo{
-        margin-right: 93px;
+        /* margin-right: 93px;
          margin-top: -25px;
          width: 350px;
          height: 340px;
-      }
-      
+      } */
