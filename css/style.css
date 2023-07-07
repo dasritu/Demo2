@@ -235,7 +235,8 @@
   .social .icon{
     display: flex;
     text-align: center;
-    margin-left: 150px;
+    justify-content: center;
+    align-items: center;
   }
   .social .icon img{
     height: 75px;
