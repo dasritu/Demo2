@@ -35,7 +35,7 @@
             <a class="nav-link nav-item-margin"  href="#about">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-item-margin"  href="#">Contact</a>
+            <a class="nav-link nav-item-margin"  href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -112,26 +112,47 @@
       
     </div> -->
   </section>
-  <div class="contact">
-    <form class="row g-3">
+  <div class="contact" id="contact">
+    <form class="row g-3 spark-form">
+      <h1>Contact us</h1>
         <div class="mb-3">
-          <label for="formGroupExampleInput" class="form-label">Contact Us</label>
+          <!-- <label for="formGroupExampleInput" class="form-label">Name</label> -->
           <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter your name...">
         </div>
         <div class="col-md-6">
-          <label for="inputEmail4" class="form-label">Email</label>
-          <input type="email" class="form-control" id="inputEmail4">
+          <!-- <label for="inputEmail4" class="form-label">Email</label> -->
+          <input type="email" class="form-control" id="inputEmail4" placeholder="Enter email id...">
         </div>
         <div class="col-md-6">
-          <label for="inputPassword4" class="form-label">Password</label>
-          <input type="password" class="form-control" id="inputPassword4">
+          <!-- <label for="inputPassword4" class="form-label">Contact No</label> -->
+          <input type="number" class="form-control"  placeholder="Enter your contact No...">
         </div>
-        <div class="col-12">
-          <label for="inputAddress" class="form-label">Address</label>
-          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        <div class="mb-3">
+          <!-- <label for="exampleFormControlTextarea1" class="form-label">Message</label> -->
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter what you think.."></textarea>
         </div>
+        <button type="button" class="btn btn-light spark-btn">Submit</button>
+
     </form>
+    <div class="social" id="social">
+      <h1>Social Presence</h1>
+      <div class="icon">
+          <div class="elipse1">
+            <img src="Images/Ellipse 1.png" alt="">
+          </div>
+          <div class="elipse1">
+            <img src="Images/Ellipse 2.png" alt="">
+          </div>
+          <div class="elipse1">
+            <img src="Images/Ellipse 3.png" alt="">
+          </div>
+          <div class="elipse1">
+            <img src="Images/Ellipse 4.png" alt="">
+          </div>
+      </div>
+    </div>
   </div>
+  
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
     integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
