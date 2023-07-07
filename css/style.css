@@ -140,11 +140,18 @@
     width: 103%;
   }
 
-  #countdown {
-    font-size: 13px;
+  .countdown p{
     font-weight: bold;
+    font-size: 25px;
+    margin: 27px 0 0 75px;
     color: white;
-    margin: 19px;
+  }
+  #countdown{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 27px 0 10px 75px;
+    
   }
   .about{
    
