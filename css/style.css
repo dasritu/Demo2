@@ -210,30 +210,115 @@
         margin-top: -6px;
         text-align: center;
     }
+    .techno-img {
+      width: 75px;
+      height: 75px;
+      margin-left: -8px;
+    }
     .sparkdiv{
-        margin-top: 26px;
+        margin-top: 28px;
     }
     .spark2 img {
         width: 102%;
         margin-top: -14px;
-        margin-left: -13px;
+        margin-left: -28px;
     }
     .date{
         font-family: 'Montserrat', sans-serif;
         color: white;
-        display: flex;
-        margin-left: 61px;
-        margin-top: 4px;
-        font-size: 22px;
+        margin-left: 16px;
+        margin-top: 45px;
+        font-size: 33px;
         text-align: center;
     }
     .cyber{
         font-family: 'Century Gothic', sans-serif;
         color: white;
         display: flex;
-        margin-left: 61px;
-        margin-top: 8px;
+        margin-left: 79px;
+        margin-top: -16px;
     }
+    .spark img{
+      width: 90%;
+      margin-left: -5px;
+      margin-top: 10px;
+    }
+    .times-left{
+      color: white;
+      font-weight: bold;
+      text-align: center;
+      font-size: 20px;
+      margin-top: 55px;
+    }
+    #countdown{
+      font-weight: bold;
+      font-size: 25px;
+      margin: 25px 0 0 91px;
+    }
+    .btn button {
+      font-family: 'Montserrat', sans-serif;
+      background-color: red;
+      color: white;
+      margin-left: 85px;
+      height: 47px;
+      width: 103%;
+      margin-top: 77px;
+      /* font-size: 14px; */
+      font-weight: bold;
+    }
+    .about{
+   
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed; 
+      width: 100vw;
+      height: 100vh; 
+    }
+    .aspark img{
+      margin-left:-270px;
+    }
+    .atext h1{
+      margin: 0;
+      padding: 0;
+    }
+    
+   
+    .about-head h1 {
+      color: red;
+      font-weight: bold;
+      margin-top: 111px;
+      margin-left: -12px;
+      margin-right: 151px;
+    }
+    .about-head h6{
+      margin: 5px 5px 10px -57px;
+      font-weight: bold;
+      font-size: 15px;
+      text-decoration: underline;
+    }
+    
+    .about-para{
+      font-family: 'Montserrat', sans-serif;
+      color: white;
+      font-size:15px;
+      margin: 2px
+    }
+    
+    
+    .a2 img{
+      width: 82%;
+      margin-top: 139px;
+      margin-left: 21px;
+    }
+    .about-content {
+      backdrop-filter: blur(3px);
+      background-color: rgb(252 236 236 / 11%);
+      margin: 200px 37px;
+      padding: 15px;
+      
+  
+  }
+
 }
   /* .spark-img{
         margin-top: 7px;
