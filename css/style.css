@@ -250,12 +250,12 @@
       margin-left: -5px;
       margin-top: 10px;
     }
-    .times-left{
+    .countdown p{
       color: white;
       font-weight: bold;
-      text-align: center;
       font-size: 20px;
       margin-top: 55px;
+      margin-left: 138px;
     }
     #countdown{
       font-weight: bold;
