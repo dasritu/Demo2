@@ -161,8 +161,8 @@
     background-attachment: fixed; 
     overflow-x: hidden;
     width: 100vw;
-    /* height: 100vh;  */
-    margin-top:120px;
+    height: 100vh; 
+    margin-top:236px;
   }
   .about-head {
     font-family: 'Montserrat', sans-serif;
@@ -207,7 +207,7 @@
   .about-content {
     backdrop-filter: blur(3px);
     background-color: rgb(252 236 236 / 11%);
-    margin: 45px 40px;
+    margin: 45px 50px;
     padding: 41px;
     
 
@@ -220,7 +220,7 @@
     height: 100vh;
   }
   .spark-form{
-    padding: 45px;
+    padding: 0;
   }
   .spark-form h1{
     color:red;
@@ -240,13 +240,14 @@
     align-items: center;
   }
   .social .icon img{
-    height: 75px;
-    width: 75px;
-    margin: 25px;
+    height: 60px;
+    width: 60px;
+    margin: 10px 8px 48px 8px;
   }
   .social h1{
     color:red;
     text-align: center;
+    margin: 25px 0 25px 0;
   }
 
 
@@ -326,10 +327,10 @@
       background-size: cover;
       background-attachment: fixed; 
       width: 100vw;
-      /* height: 100vh;  */
+      height: 100vh; 
     }
     .aspark img{
-      margin-left:-56px;
+      margin-left:-35px;
     }
     .atext h1{
       margin: 0;
@@ -341,14 +342,14 @@
       color: red;
       font-weight: bold;
       margin-top: 18px;
-      margin-left: -130px;
+      margin-left: -105px;
       margin-right: -113px;
       text-align: center;
   }
   .about-head h6 {
-    margin: 10px -16px 5px -15px;
+    margin: 10px -16px 5px -12px;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 18px;
     text-decoration: underline;
 }
     
@@ -397,8 +398,9 @@
   margin-right: 135px;
   margin-left: -143px;
 }
-form{
+.spark-form{
   width:100vw;
+  padding: 45px;
 }
 .social{
   width:100vw;
@@ -406,7 +408,7 @@ form{
 .social .icon img{
   height: 49px;
     width: 42px;
-    margin: 25px;
+    margin: 10px 8px 48px 8px;
 }
 }
   /* .spark-img{
