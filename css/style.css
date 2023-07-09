@@ -86,7 +86,7 @@
     color: white;
     border-color: white;
   }
-
+  
  
   
 
@@ -270,19 +270,24 @@
       height: 75px;
       margin-left: -8px;
     }
+
+    .spark-logo img{
+      margin-left: -35px;
+    }
+
     .sparkdiv{
         margin-top: 28px;
     }
     .spark2 img {
-        width: 102%;
-        margin-top: -14px;
-        margin-left: -28px;
+      width: 102%;
+      margin-top: -28px;
+      margin-left: -23px;
     }
     .date{
         font-family: 'Montserrat', sans-serif;
         color: white;
-        margin-left: 16px;
-        margin-top: 45px;
+        margin-left: 6px;
+        margin-top: 7px;
         font-size: 33px;
         text-align: center;
     }
@@ -290,13 +295,13 @@
         font-family: 'Century Gothic', sans-serif;
         color: white;
         display: flex;
-        margin-left: 79px;
-        margin-top: -16px;
+        margin-left: 67px;
+        margin-top: -18px;
     }
     .spark img{
       width: 90%;
-      margin-left: -5px;
-      margin-top: 10px;
+    margin-left: -19px;
+    margin-top: -3px;
     }
     .countdown p{
       color: white;
@@ -304,6 +309,9 @@
       font-size: 20px;
       margin-top: 55px;
       margin-left: 138px;
+    }
+    .countdown{
+      margin: -45px 2px 2px 2px;
     }
     #countdown{
       font-weight: bold;
@@ -317,7 +325,7 @@
       margin-left: 85px;
       height: 47px;
       width: 103%;
-      margin-top: 77px;
+      margin-top: 19px;
       /* font-size: 14px; */
       font-weight: bold;
     }
@@ -369,7 +377,7 @@
     .about-content {
       backdrop-filter: blur(3px);
       background-color: rgb(252 236 236 / 11%);
-      margin: 200px 37px;
+      margin: 70px 37px;
       padding: 15px;
       
   
