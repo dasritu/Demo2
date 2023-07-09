@@ -250,6 +250,45 @@
     text-align: center;
   }
 
+  
+  .event{
+    background: url('../Images/eventback.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+    width: 100vw;
+
+
+  }
+
+  .event-list{
+    padding:20px;
+  }
+  .event-first{
+    display: flex;
+    justify-content: space-between;
+  }
+  .creative{
+    margin-top: 100px;
+  }
+
+  .event-second{
+    display:flex;
+    justify-content: center;
+  }
+  .gaming{
+    margin-top: 60px;
+  }
+  .management{
+    margin-top:200px;
+  }
+  .intellectual{
+    margin-top: 40px;
+    margin-left: 26px;
+  }
+
+
 
   @media (max-width: 991px) {
     .navbar-toggler-icon line {
@@ -369,7 +408,7 @@
     .about-content {
       backdrop-filter: blur(3px);
       background-color: rgb(252 236 236 / 11%);
-      margin: 200px 37px;
+      margin: 6px 37px;
       padding: 15px;
       
   
@@ -409,6 +448,69 @@ form{
     width: 42px;
     margin: 25px;
 }
+
+.event-heading h1{
+  font-family: 'Montserrat', sans-serif;
+  color:red;
+  text-align: center;
+  
+  font-size:60px;
+}
+.event-first{
+  display: block;
+}
+.technical img{
+  width: 57%;
+}
+.creative{
+  margin-top: 100px;
+}
+.creative img{
+  margin-top: -148px;
+  margin-left: 144px;
+}
+
+.event{
+  background: url(../Images/eventback.png);
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  width: 100vw;
+  margin-left: 1px;
+  margin-top:50px;
+}
+
+.creative img{
+  width:56%;
+}
+.event-second{
+  display: block;
+
+}
+
+.gaming{
+  margin-top: -4px;
+}
+.gaming img{
+  width:55%;
+}
+.management {
+  margin-top: 200px;
+}
+.management img{
+  margin-top: -266px;
+  width: 52%;
+  margin-left: 184px;
+}
+.intellectual {
+  margin-top: 40px;
+  margin-left: 26px;
+}
+.intellectual img{
+  width: 59%;
+    margin-top: -60px;
+    margin-lefT: -41px;
+}
+
 }
   /* .spark-img{
         margin-top: 7px;
