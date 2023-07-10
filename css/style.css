@@ -315,7 +315,7 @@
       margin-left: -8px;
     }
     .sparkdiv{
-        margin-top: 28px;
+        margin-top: -12px;
     }
     .spark2 img {
         width: 102%;
@@ -326,7 +326,7 @@
         font-family: 'Montserrat', sans-serif;
         color: white;
         margin-left: 16px;
-        margin-top: 45px;
+        margin-top: 13px;
         font-size: 33px;
         text-align: center;
     }
@@ -354,6 +354,10 @@
       font-size: 25px;
       margin: 25px 0 0 91px;
     }
+
+    .countdown{
+      margin: -33px 0 0 0;
+    }
     .btn button {
       font-family: 'Montserrat', sans-serif;
       background-color: red;
@@ -361,7 +365,7 @@
       margin-left: 85px;
       height: 47px;
       width: 103%;
-      margin-top: 77px;
+      margin-top: 30px;
       /* font-size: 14px; */
       font-weight: bold;
     }
@@ -450,8 +454,9 @@ form{
 }
 .social .icon img{
   height: 49px;
-    width: 42px;
-    margin: 4px 0 85px 20px;
+  width: 42px;
+  margin: 0 5px 85px 5px;
+  
 }
 
 .event-heading h1{
