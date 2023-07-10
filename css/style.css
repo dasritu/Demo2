@@ -210,7 +210,6 @@
     margin: 45px 40px;
     padding: 41px;
     
-
     } 
   .contact{
     color:white;
@@ -219,6 +218,8 @@
     padding: 149px;
     height: 100vh;
   }
+
+  
   .spark-form{
     padding: 45px;
   }
@@ -242,7 +243,7 @@
   .social .icon img{
     height: 75px;
     width: 75px;
-    margin: 25px;
+    margin: 14px 0 91px 20px;
   }
 
   .social h1{
@@ -255,8 +256,6 @@
     background: url('../Images/eventback.png');
     background-repeat: no-repeat;
     background-size: cover;
-   
-    
     width: 100vw;
 
 
@@ -272,20 +271,26 @@
   .creative{
     margin-top: 100px;
   }
-
+  .event-heading h1{
+    font-family: 'Montserrat', sans-serif;
+    color:red;
+    text-align: center;
+    font-size:60px;
+  }
   .event-second{
     display:flex;
     justify-content: center;
   }
   .gaming{
-    margin-top: 60px;
+    margin: 6px 0 0 65px;
   }
   .management{
-    margin-top:200px;
+    margin-top: 275px;
+    margin-left: 162px;
   }
   .intellectual{
-    margin-top: 40px;
-    margin-left: 26px;
+    margin-top: -40px;
+    margin-left: 146px;
   }
 
 
@@ -453,7 +458,6 @@ form{
   font-family: 'Montserrat', sans-serif;
   color:red;
   text-align: center;
-  
   font-size:60px;
 }
 .event-first{
