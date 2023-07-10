@@ -257,8 +257,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
-
-
   }
 
   .event-list{
@@ -292,9 +290,46 @@
     margin-top: -40px;
     margin-left: 146px;
   }
+  .team-img{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 70px 30px;
 
+  }
 
+  .team-heading{
+    margin-left: 89px;
+    margin-top: 41px;
+    color: red;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+  }
+ .team-htag{
+  margin-left: 89px;
+  margin-top: 2px;
+  color: white;
 
+  font-family: 'Montserrat', sans-serif;
+ }
+.member-name{
+  text-align: center;
+  color: white;
+  margin: 24px 0px;
+  font-size: 53px;
+}
+.member-name h4{
+  font-size:33px;
+}
+.member-img{
+  margin-right:20px;
+}
+.member-img img{
+  background-image: radial-gradient(circle at center, black 44%, white 70%);
+  border-radius: 50%;
+  overflow-x: hidden;
+}
   @media (max-width: 991px) {
     .navbar-toggler-icon line {
       stroke: white !important;
