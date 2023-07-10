@@ -451,7 +451,7 @@ form{
 .social .icon img{
   height: 49px;
     width: 42px;
-    margin: 25px;
+    margin: 4px 0 85px 20px;
 }
 
 .event-heading h1{
@@ -495,15 +495,16 @@ form{
   margin-top: -4px;
 }
 .gaming img{
-  width:55%;
+  width: 72%;
+  margin-left: -69px;
 }
 .management {
   margin-top: 200px;
 }
 .management img{
-  margin-top: -266px;
-  width: 52%;
-  margin-left: 184px;
+  margin-top: -283px;
+    width: 100%;
+    margin-left: 4px;
 }
 .intellectual {
   margin-top: 40px;
