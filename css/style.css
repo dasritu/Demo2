@@ -212,16 +212,22 @@
     
     } 
   .contact{
-    color:white;
+    color: white;
     font-size: 25px;
-    margin: 0 215px;
-    padding: 149px;
+    /* margin: 0 215px; */
+    /* padding: 149px; */
     height: 100vh;
+    width:100vw;
+    margin-left:190px;
   }
 
-  
+  .custom-input{
+    color:white;
+  }
   .spark-form{
     padding: 45px;
+    width: 74%;
+    margin-left: 172px;
   }
   .spark-form h1{
     color:red;
@@ -232,7 +238,32 @@
   }
   .spark-form textarea{
     backdrop-filter: blur(3px);
-    background-color: rgb(252 236 236 / 11%);
+    background-color: rgba(10, 9, 9, 0.11);
+  }
+   button.spark-btn{
+    width:40vw;
+    background-color: red;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size:19px;
+    border:none;
+    margin-left:13px;
+  }
+  input[type='text']::placeholder{
+    color: white;
+    
+  }
+  input[type='email']::placeholder{
+    color: white;
+    
+  }
+  input[type='number']::placeholder{
+    color: white;
+    
+  }
+  #exampleFormControlTextarea1::placeholder{
+    color:white;
   }
   .social .icon{
     display: flex;
@@ -261,35 +292,48 @@
 
   .event-list{
     padding:20px;
+    position: relative;
+    transition: transform 0.8s ease-in-out;
+    transform-origin: center center;
   }
-  .event-first{
+
+  /* .event:hover .event-list {
+    transform: translateX(-100%);
+  } */
+  .event-first {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
   }
-  .creative{
+  
+  .creative {
     margin-top: 100px;
+    transition: left 0.5s ease-in-out, top 0.5s ease-in-out;
   }
-  .event-heading h1{
+  
+  .event-heading h1 {
     font-family: 'Montserrat', sans-serif;
-    color:red;
+    color: red;
     text-align: center;
-    font-size:60px;
+    font-size: 60px;
   }
-  .event-second{
-    display:flex;
+  
+  .event-second {
+    display: flex;
     justify-content: center;
   }
-  .gaming{
+  
+  .gaming {
     margin: 6px 0 0 65px;
+    transition: left 0.5s ease-in-out, top 0.5s ease-in-out;
   }
-  .management{
+  
+  .management {
     margin-top: 275px;
     margin-left: 162px;
+    transition: left 0.5s ease-in-out, top 0.5s ease-in-out;
   }
-  .intellectual{
-    margin-top: -40px;
-    margin-left: 146px;
-  }
+
   .team-img{
     justify-content: center;
     display: flex;
@@ -330,6 +374,9 @@
   border-radius: 50%;
   overflow-x: hidden;
 }
+
+
+
   @media (max-width: 991px) {
     .navbar-toggler-icon line {
       stroke: white !important;
@@ -478,8 +525,13 @@
   
   height: 100vh;
   width: 100vw;
-  margin-right: 135px;
-  margin-left: -143px;
+  /* margin-right: 135px;
+  margin-left: -143px; */
+  
+}
+.spark-btn{
+  width: 44%;
+  margin-left: 67px;
 }
 form{
   width:100vw;
@@ -557,15 +609,3 @@ form{
 }
 
 }
-  /* .spark-img{
-        margin-top: 7px;
-        margin-left: 40px;
-        width: 801px;
-        height: 349px;
-      }
-      .hero-logo{
-        /* margin-right: 93px;
-         margin-top: -25px;
-         width: 350px;
-         height: 340px;
-      } */
