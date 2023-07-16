@@ -12,6 +12,7 @@
     margin: 0;
     box-sizing: border-box;
   }
+ 
   .nav-item-margin {
     margin-left: 48px;
     font-size: 20px;
@@ -212,16 +213,14 @@
     font-size: 25px;
     height: 100vh;
     width:100vw;
-    margin-left:190px;
+   
   }
 
   .custom-input{
     color:white;
   }
   .spark-form{
-    padding: 45px;
-    width: 74%;
-    margin-left: 172px;
+    margin:0px 20px;
   }
   .spark-form h1{
     color:red;
@@ -284,7 +283,7 @@
   }
 
   
-  .event{
+  #event{
     background: url('../Images/eventback.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -521,9 +520,9 @@
       width: 100vw;
       /* height: 100vh;  */
     }
-    .aspark img{
-      margin-left:-56px;
-    }
+    .aspark img {
+      margin-left: -37px;
+  }
     .atext h1{
       margin: 0;
       padding: 0;
@@ -539,18 +538,18 @@
       text-align: center;
   }
   .about-head h6 {
-    margin: 10px -16px 5px -15px;
+    margin: 11px -6px 5px 1px;
     font-weight: bold;
     font-size: 15px;
     text-decoration: underline;
 }
     
-    .about-para{
-      font-family: 'Montserrat', sans-serif;
-      color: white;
-      font-size:15px;
-      margin: 2px
-    }
+.about-para {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 18px;
+  margin: 2px;
+}
     
     
     .a2 img{
@@ -564,7 +563,6 @@
       margin: 6px 37px;
       padding: 15px;
       
-  
   }
   .atext{
     width: 96%;
@@ -691,11 +689,29 @@
   margin-left: 14px;
 }
 .team-heading {
- 
+  margin-left: 2px;
   margin-top: 41px;
   color: red;
   font-weight: bold;
   font-family: 'Montserrat', sans-serif;
+}
+.team-htag {
+  margin-left: 125px;
+  margin-top: 2px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+.team-btn{
+  margin-left: -24px;
+}
+.team-btn button {
+  font-family: 'Montserrat', sans-serif;
+  background-color: red;
+  color: black;
+  margin-left: -42px;
+  height: 58px;
+  width: 120%;
+  margin-top: 7px;
 }
 }
 @media only screen and (min-width: 439px) and (max-width: 650px){
@@ -766,6 +782,12 @@ margin: 25px 0 0 91px;
 
 .countdown {
   margin: -33px 0 0 57px;
+}
+.team-htag {
+  margin-left: 125px;
+  margin-top: 2px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
 }
 /* .btn button {
   font-family: 'Montserrat', sans-serif;
@@ -979,6 +1001,18 @@ margin-left: 26px;
 .team-heading h1{
     font-size: 27px;
     margin-left: 14px;
+}
+.team-btn{
+  margin-left: -24px;
+}
+.team-btn button {
+  font-family: 'Montserrat', sans-serif;
+  background-color: red;
+  color: black;
+  margin-left: -42px;
+  height: 58px;
+  width: 120%;
+  margin-top: 7px;
 }
 }
 
