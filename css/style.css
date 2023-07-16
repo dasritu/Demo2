@@ -667,7 +667,36 @@
     margin-top: -60px;
     margin-lefT: -41px;
 }
-
+.slider span img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 71%;
+  height: 93%;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: 2s;
+  box-shadow: 2px 2px 23px white;
+}
+.team-img {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 70px 27px;
+  padding-left: 90px;
+}
+.team-heading h1{
+  font-size: 27px;
+  margin-left: 14px;
+}
+.team-heading {
+ 
+  margin-top: 41px;
+  color: red;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
 }
 @media only screen and (min-width: 439px) and (max-width: 650px){
   .techno-img {
@@ -840,11 +869,12 @@ flex-direction: column-reverse;
   position: absolute;
   top: 0;
   left: 0;
-  width: 101%;
-  height: 100%;
+  width: 71%;
+  height: 93%;
   border-radius: 50%;
-  box-shadow: -5px 2px 19px white;
+  object-fit: cover;
   transition: 2s;
+  box-shadow: 2px 2px 23px white;
 }
 .slider {
   position: relative;
@@ -938,7 +968,20 @@ margin-left: 26px;
 .intellectual img {
   width: 66%;
 }
+.team-img {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 70px 27px;
+  padding-left: 90px;
 }
+.team-heading h1{
+    font-size: 27px;
+    margin-left: 14px;
+}
+}
+
 
 @media only screen and (min-width:652px) and (max-width: 820px) and (max-height: 1180px) {
   .cyber {
