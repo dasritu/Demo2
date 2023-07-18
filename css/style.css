@@ -507,15 +507,15 @@
   }
 
   .countdown {
-    margin:-33px 0 0 32px;
+    margin: -33px 0 0 41px
 }
   .btn button {
     font-family: 'Montserrat', sans-serif;
     background-color: red;
     color: white;
-    margin-left: 75px;
+    margin-left: 103px;
     height: 47px;
-    width: 85%;
+    width: 68%;
     margin-top: 30px;
     /* font-size: 14px; */
     font-weight: bold;
