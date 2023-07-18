@@ -109,7 +109,7 @@
     color: white;
     display: flex;
     margin-left: 71px;
-    margin-top: -67px;
+    margin-top: -53px;
   }
 
   .cyber h4 {
@@ -123,7 +123,7 @@
     display: flex;
     margin-left: 71px;
     margin-top: -12px;
-    font-size: 41px;
+    font-size: 37px;
   }
 
   .sparkdiv {
@@ -529,7 +529,7 @@
     /* height: 100vh;  */
   }
   .aspark img {
-    margin-left: -27px;
+    margin-left: -10px;
     width: 64%;
 }
   .atext h1{
@@ -542,13 +542,13 @@
     color: red;
     font-weight: bold;
     margin-top: 18px;
-    margin-left: -174px;
+    margin-left: -160px;
     margin-right: -113px;
     text-align: center;
 
 }
 .about-head h6 {
-  margin: 19px -6px 5px -37px;
+  margin: 19px -6px 5px -14px;
   font-weight: bold;
   font-size: 11px;
   text-decoration: underline;
@@ -821,9 +821,9 @@ margin-top: 7px;
       text-align: center;
   }
   .about-head h6 {
-    margin: 19px -6px 5px -33px;
+    margin: 19px -6px 5px -20px;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 13px;
     text-decoration: underline;
 }
     
