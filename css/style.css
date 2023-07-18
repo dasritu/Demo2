@@ -269,6 +269,9 @@
   #exampleFormControlTextarea1::placeholder{
     color:white;
   }
+  #social{
+    padding-top:20px;
+  }
   .social .icon{
     display: flex;
     text-align: center;
@@ -445,7 +448,21 @@
   transition: 2s;
 }
 .slider span:hover img{
-  transform: translateY(-50px) scale(1.2)
+  transform: scale(1.2)
+}
+.f-link {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+.footer_link{
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    
+    align-items: center;
+    font-size: 11px;
+    width: 100vw;
 }
 
   @media only screen and (max-width:372px){
@@ -453,11 +470,11 @@
       margin-left: -29px;
     }
     .sparkdiv{
-      margin-left: -16px;
+      text-align: center;
       margin-top:20px;
     }
     .techno{
-      margin-left: 2px;
+      margin-left: 0px;
       font-size: 17px;
       margin-top: -6px;
       text-align: center;
@@ -476,7 +493,7 @@
   .date {
     font-family: 'Montserrat', sans-serif;
     color: white;
-    margin-left: 39px;
+    
     margin-top: 13px;
     font-size: 14px;
     text-align: center;
@@ -485,7 +502,7 @@
       font-family: 'Century Gothic', sans-serif;
       color: white;
       display: flex;
-      margin-left: 45px;
+     text-align: center;
       margin-top: -16px;
   }
   .spark img{
@@ -542,16 +559,15 @@
     color: red;
     font-weight: bold;
     margin-top: 18px;
-    margin-left: -160px;
-    margin-right: -113px;
     text-align: center;
 
 }
 .about-head h6 {
-  margin: 19px -6px 5px -14px;
+  margin-top: 19px;
   font-weight: bold;
-  font-size: 11px;
+  font-size: 10px;
   text-decoration: underline;
+  text-align: center;
 }
   
 .about-para {
@@ -570,7 +586,8 @@ margin: 2px;
   .about-content {
     backdrop-filter: blur(3px);
     background-color: rgb(252 236 236 / 11%);
-    margin: 6px 37px;
+    width: 95vw;
+    margin-left: 5px;
     padding: 15px;
     
 }
@@ -686,7 +703,7 @@ height: 77%;
 /* border-radius: 50%; */
 object-fit: cover;
 transition: 2s;
-box-shadow: 2px 2px 23px white;
+
 }
 .team-img {
 justify-content: center;
@@ -959,7 +976,7 @@ button.spark-btn{
   /* border-radius: 50%; */
   object-fit: cover;
   transition: 2s;
-  box-shadow: 2px 2px 23px white;
+  
 }
 .team-img {
   justify-content: center;
@@ -1183,7 +1200,7 @@ margin-bottom: 30px;
  
   object-fit: cover;
   transition: 2s;
-  box-shadow: 2px 2px 23px white;
+  
 }
 
 .slider {
