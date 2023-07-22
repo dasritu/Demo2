@@ -20,7 +20,7 @@
         var img=document.getElementById('loading');
         setTimeout(()=>{
             img.style.display='none';
-        },5000);
+        },4000);
     });
 </script>
   <script src="js/script.js"></script>
@@ -59,38 +59,31 @@
 </head>
 
 <body class="bg-image">
-  <div id="loading">
-    <img id="loading-img" class ="loading-img" src="Images/loader.gif" alt="LOADING....">
-   </div>
-  <div class="sticky-navbar">
-    <nav class="navbar navbar-expand-lg bg-transparent">
-      <div class="container-fluid" style="margin-left: 32px;">
-        <a class="navbar-brand" href="#">
-          <img src="Images/sq_3.png" alt="Logo" width="200" height="100" class="d-inline-block align-text-top">
-        </a>
-        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon light"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link nav-item-margin" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link nav-item-margin" href="#about">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link nav-item-margin" href="#contact">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link nav-item-margin" href="#slider-img">Gallary</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </div>
+  <div class="navigation">
+    <input type="checkbox" class="navigation__checkbox" id="nav-toggle">
+    <label for="nav-toggle" class="navigation__button">
+      <span class="navigation__icon" aria-label="toggle navigation menu"></span>
+    </label>
+    <div class="navigation__background"></div>
+
+    <nav class="navigation__nav" role="navigation">
+      <ul class="navigation__list">
+        <li class="navigation__item">
+          <a href="#" class="navigation__link"><span>01</span>Home</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#" class="navigation__link"><span>02</span>About</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#" class="navigation__link"><span>03</span>Contact Us</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#" class="navigation__link"><span>04</span>Gallery</a>
+        </li>
+       
+  </ul>
+</nav>
+</div>
   <section class="home">
    <div class="techno">
     <span>
@@ -369,7 +362,6 @@
       }
     });
   </script>
-
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   
   <script>
