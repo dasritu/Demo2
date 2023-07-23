@@ -665,7 +665,8 @@
     }
     .sparkdiv{
       text-align: center;
-      margin-top:20px;
+      margin-top: 20px;
+      margin-left: -34px;
     }
     .techno{
       margin-left: 0px;
@@ -687,17 +688,18 @@
   .date {
     font-family: 'Montserrat', sans-serif;
     color: white;
-    
     margin-top: 13px;
     font-size: 14px;
     text-align: center;
+    margin-left: 36px;
 }
   .cyber{
-      font-family: 'Century Gothic', sans-serif;
-      color: white;
-      display: flex;
-     text-align: center;
-      margin-top: -16px;
+    font-family: 'Century Gothic', sans-serif;
+    color: white;
+    display: flex;
+    text-align: center;
+    margin-top: -16px;
+    margin-left: 45px;
   }
   .spark img{
     width: 90%;
@@ -718,18 +720,20 @@
   }
 
   .countdown {
-    margin: -33px 0 0 41px
+    margin: -33px 0 0 22px;
 }
   .btn button {
+  
     font-family: 'Montserrat', sans-serif;
     background-color: red;
     color: white;
-    margin-left: 103px;
+    margin-left: 83px;
     height: 47px;
     width: 68%;
     margin-top: 30px;
     /* font-size: 14px; */
     font-weight: bold;
+
   }
   .about{
  
